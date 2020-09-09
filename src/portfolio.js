@@ -161,7 +161,7 @@ const education = {
     {
       role: "Bachelor of Engineering (Electonics & Telecommunication)",  
       company: "Savitribai Phule University",
-      companylogo: require("./assets/images/sppuLogo.png"),
+      companylogo: require("./assets/images/sppuLogo.jpg"),
       date: "Aug 2012 – Jun 2016",
       desc: "First Class with Distinction (71.8%)"
     },
@@ -236,4 +236,4 @@ const contactInfo = {
   email_address: "mayurpatild@gmail.com"
 };
 
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, achievementSection, contactInfo};
+export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, education, openSource, achievementSection, contactInfo};
