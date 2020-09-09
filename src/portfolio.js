@@ -106,8 +106,20 @@ const techStack = {
       progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Web / Mobile / Desktop / API Automation",
+      Stack: "Web Automation",
       progressPercentage: "90%"
+    },
+    {
+      Stack: "Mobile Automation",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Desktop Automation",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "API Automation",
+      progressPercentage: "80%"
     },
     {
       Stack: "CI/CD",
@@ -145,10 +157,17 @@ const workExperiences = {
     },
     {
       role: "Systems Engineer",   
-      company: "Tata ConsultancyServices",
-      companylogo: require("./assets/images/tcsLogo.png"),
+      company: "Tata Consultancy Services",
+      companylogo: require("./assets/images/tcs3.jfif"),
       date: "Dec 2016 – Mar 2019",
       desc: "Developed and enhanced several Hybrid frameworks for testing Web applications using Selenium, Cucumber and TestNG"
+       descBullets: [
+        "Worked on multiple projects in Cards domain with contributions for testing multiple Web and Mobile applications",
+        "Developed and enhanced several Hybrid frameworks for testing Web applications using Selenium, Cucumber and TestNG",
+        "Implemented Grid based Architecture to run Test suites including thousands of Test cases distributed to run on several node machines for Web Applications",
+        "Implemented BDD based Mobile Test Automation Framework architecture to run test suites on mobile applications across Android/iOS devices using Perfecto"
+      ]
+    },
     },
   ]
 };
@@ -167,14 +186,14 @@ const education = {
     },
     {
       role: "12th Grade",  
-      company: "Centrall Board of Secondary Education",
+      company: "Central Board of Secondary Education",
       companylogo: require("./assets/images/cbseLogo.png"),
       date: "Apr 2011 – Mar 2012",
       desc: "85.8%"
     },
     {
       role: "10th Grade",  
-      company: "Centrall Board of Secondary Education",
+      company: "Central Board of Secondary Education",
       companylogo: require("./assets/images/cbseLogo.png"),
       date: "Apr 2009 – Mar 2010",
       desc: "CGPA 9.4"
@@ -200,29 +219,33 @@ const achievementSection = {
 
   achivementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "WU WAY GROUP STARS Winner",
+      subtitle: "Received WU WAY Star award in Q1 2020 for implemmentation of BDD framework",
+      image: require("./assets/images/wuLogo.png"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "Achievement", url: "" }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "WU Bravo recognition - Flair Award",
+      subtitle: "Received Flair award for ",
+      image: require("./assets/images/wuLogo.png"),
       footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+        { name: "Achievement", url: "" }
+      ]
+    },
+    {
+      title: "ISTQB Certified Tester",
+      subtitle: "",
+      image: require("./assets/images/ISTQB.png"),
+      footerLink: [{ name: "Certification", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+    },
+    {
+      title: "RPA Developer Foundation",
+      subtitle: "Completed Certifcation from UiPath for Robotic Process Automation (RPA) Development",
+      image: require("./assets/images/UiPath.webp"),
+      footerLink: [
+        { name: "Certification", url: "https://cloud.contentraven.com/crdownloadfiles/index.aspx?act=8MH4sSWyowEaN0eXRAsy+A__&id=4t2QriPXC/Q_" }
       ]
     }
   ]
