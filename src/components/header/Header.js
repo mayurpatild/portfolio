@@ -36,10 +36,7 @@ function Header() {
             <a href="#achievements">Achievements</a>
           </li>
           <li>
-            <a href="#blogs">Blogs</a>
-          </li>
-          <li>
-            <a href="#talks">Talks</a>
+            <a href="#education">Education</a>
           </li>
           <li>
             <a href="#contact">Contact Me</a>
