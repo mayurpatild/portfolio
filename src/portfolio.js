@@ -166,9 +166,8 @@ const workExperiences = {
         "Developed and enhanced several Hybrid frameworks for testing Web applications using Selenium, Cucumber and TestNG",
         "Implemented Grid based Architecture to run Test suites including thousands of Test cases distributed to run on several node machines for Web Applications",
         "Implemented BDD based Mobile Test Automation Framework architecture to run test suites on mobile applications across Android/iOS devices using Perfecto"
-      ]
-    },
-    },
+       ]
+     },
   ]
 };
 
