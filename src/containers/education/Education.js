@@ -5,7 +5,7 @@ import { education } from "../../portfolio";
 import { Fade } from "react-reveal";
 
 
-export default function education() {
+export default function Education() {
     if(education.viewExperiences){
         return (
             <div id="experience">
