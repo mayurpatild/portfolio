@@ -1,17 +1,4 @@
-# Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/mayurpatild/developer-portfolio?color=blue)](https://github.com/mayurpatild/portfolio/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/mayurpatild/portfolio)]
-
-## A clean, beautiful and responsive portfolio template for Developers!
-
-
-
-
-Just change `src/portfolio.js` to get your personal portfolio . Feel free to use it as-is or customize it as much as you want.
-
-But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/mayurpatild/portfolio/issues).
-
-
-If you created something awesome and want to contribute then feel free to open Please don't hesitate to open an [pull request](https://github.com/mayurpatild/portfolio/pulls).
-
+# My Portfolio ⚡️ 🚀
 
 ## Sections 
 ✔️ Summary and About me\
@@ -27,7 +14,7 @@ If you created something awesome and want to contribute then feel free to open P
 ✔️ Twitter Timeline\
 ✔️ Github Profile
 
-To view a live example, **[click here](https://portfolio.js.org/)**
+To view a live example, **[click here](https://mayurpatild.github.io/)**
 
 
 ## Getting Started 🚀
@@ -111,8 +98,7 @@ If the above method by any chance fails, visit the [wiki page](https://github.co
 const greeting = {
   /* Your Summary And Greeting Section */
   title: "Hi all I'm Mayur",
-  subTitle: emoji("A passionate Full Stack Software Developer 🚀"),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  subTitle: emoji("A passionate Full Stack Software QA 🚀"),
 };
 
 const socialMediaLinks = {
@@ -120,8 +106,6 @@ const socialMediaLinks = {
   github: "https://github.com/mayurpatild",
   linkedin: "https://www.linkedin.com/in/mayurpatild/",
   gmail: "mayurpatild@gmail.com",
-  gitlab: "https://gitlab.com/mayurpatild",
-  facebook: ""
 };
 
 
@@ -195,10 +179,6 @@ For more information, read [hosting on Netlify](https://create-react-app.dev/doc
 - [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
 - [react-headroom](https://github.com/KyleAMathews/react-headroom)
 - [color-thief](https://github.com/lokesh/color-thief)
-
-## Illustrations
-- [UnDraw](https://undraw.co/illustrations)
-
 
 
 <!-- markdownlint-enable -->
