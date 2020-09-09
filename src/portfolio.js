@@ -8,7 +8,7 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Mayur Patil",
-  title: "Hi all, I'm Mayur",
+  title: "Hi, I'm Mayur",
   subTitle: emoji("A passionate Software QA 🚀 Solving problems, building and testing things with code and thoughts."),
   resumeLink: ""
 };
@@ -46,32 +46,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
     },
     {
       skillName: "sql-database",
@@ -217,22 +197,7 @@ const achievementSection = {
   subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achivementsCards: [
-    {
-      title: "WU WAY GROUP STARS Winner",
-      subtitle: "Received WU WAY Star award in Q1 2020 for implemmentation of BDD framework",
-      image: require("./assets/images/wuLogo.png"),
-      footerLink: [
-        { name: "Achievement", url: "" }
-      ]
-    },
-    {
-      title: "WU Bravo recognition - Flair Award",
-      subtitle: "Received Flair award for ",
-      image: require("./assets/images/wuLogo.png"),
-      footerLink: [
-        { name: "Achievement", url: "" }
-      ]
-    },
+    
     {
       title: "ISTQB Certified Tester",
       subtitle: "",
@@ -246,7 +211,55 @@ const achievementSection = {
       footerLink: [
         { name: "Certification", url: "https://cloud.contentraven.com/crdownloadfiles/index.aspx?act=8MH4sSWyowEaN0eXRAsy+A__&id=4t2QriPXC/Q_" }
       ]
-    }
+    },
+    {
+      title: "WU WAY GROUP STARS Winner",
+      subtitle: "Received WU WAY Star award in Q1 2020 for implemmentation of BDD framework",
+      image: require("./assets/images/wuLogo.png"),
+      footerLink: [
+        { name: "Achievement", url: "" }
+      ]
+    },
+    {
+      title: "WU Bravo recognition - Flair Award",
+      subtitle: "Received Flair award for achieving delivery milestones",
+      image: require("./assets/images/wuLogo.png"),
+      footerLink: [
+        { name: "Achievement", url: "" }
+      ]
+    },
+    {
+      title: "Star of the Month Award",
+      subtitle: "Apr 1, 2018",
+      image: require("./assets/images/tcs3.jfif"),
+      footerLink: [
+        { name: "Achievement", url: "" }
+      ]
+    },
+    {
+      title: "Citi Bright Beginner Award",
+      subtitle: "Mar 1, 2018",
+      image: require("./assets/images/tcs3.jfif"),
+      footerLink: [
+        { name: "Achievement", url: "" }
+      ]
+    },
+    {
+      title: "On The Spot Award",
+      subtitle: "Aug 1, 2017",
+      image: require("./assets/images/tcs3.jfif"),
+      footerLink: [
+        { name: "Achievement", url: "" }
+      ]
+    },
+    {
+      title: "Star Performer Award",
+      subtitle: "Recognized as Star Performer among batch of 250 colleagues while training under TCS",
+      image: require("./assets/images/tcs3.jfif"),
+      footerLink: [
+        { name: "Achievement", url: "" }
+      ]
+    },
   ]
 };
 
