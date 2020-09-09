@@ -21,7 +21,7 @@ jobs:
           npm run build
 
       - name: Deploy 🚀
-        uses: mayurpatild/deploy-on-github
+        uses: mayurpatild/deploy-on-github@master
         with:
           GITHUB_TOKEN : ${{ secrets.GITHUB_TOKEN }} # This is provided by GitHub.
           BRANCH: gh-pages # The branch the action should deploy to.
