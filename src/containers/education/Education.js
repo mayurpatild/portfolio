@@ -1,5 +1,5 @@
 import React from "react";
-import "./education.css";
+import "./Education.css";
 import ExperienceCard from "../../components/experienceCard/ExperienceCard";
 import { education } from "../../portfolio";
 import { Fade } from "react-reveal";
