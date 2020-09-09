@@ -160,7 +160,7 @@ const workExperiences = {
       company: "Tata Consultancy Services",
       companylogo: require("./assets/images/tcs3.jfif"),
       date: "Dec 2016 – Mar 2019",
-      desc: "Developed and enhanced several Hybrid frameworks for testing Web applications using Selenium, Cucumber and TestNG"
+      desc: "Developed and enhanced several Hybrid frameworks for testing Web applications using Selenium, Cucumber and TestNG",
        descBullets: [
         "Worked on multiple projects in Cards domain with contributions for testing multiple Web and Mobile applications",
         "Developed and enhanced several Hybrid frameworks for testing Web applications using Selenium, Cucumber and TestNG",
