@@ -7,11 +7,7 @@
 ✔️ Open Source Projects Connected with Github\
 ✔️ Big Projects\
 ✔️ Achievements And Certifications 🏆\
-✔️ Blogs\
-✔️ Talks\
-✔️ Podcast\
 ✔️ Contact me\
-✔️ Twitter Timeline\
 ✔️ Github Profile
 
 To view a live example, **[click here](https://mayurpatild.github.io/)**
