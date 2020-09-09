@@ -1,4 +1,4 @@
-# Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/mayurpatild/developer-portfolio?color=blue)](https://github.com/mayurpatild/portfolio/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/mayurpatild/portfolio)](https://github.com/mayurpatild/portfolio/stargazers)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors) 
+# Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/mayurpatild/developer-portfolio?color=blue)](https://github.com/mayurpatild/portfolio/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/mayurpatild/portfolio)]
 
 ## A clean, beautiful and responsive portfolio template for Developers!
 
