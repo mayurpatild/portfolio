@@ -8,7 +8,7 @@
     "apollo-boost": "^0.4.4",
     "colorthief": "^2.3.2",
     "gh-pages": "^2.1.1",
-    "graphql": "^14.7.0",
+    "graphql": "^15.3.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-easy-emoji": "^1.4.0",
