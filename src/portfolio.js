@@ -156,7 +156,7 @@ const education = {
     {
       role: "Bachelor of Engineering (Electonics & Telecommunication)",  
       company: "Savitribai Phule University",
-      companylogo: require("./assets/images/sppuLogo.jpg"),
+      companylogo: require("./assets/images/sppuPune.jpg"),
       date: "Aug 2012 – Jun 2016",
       desc: "First Class with Distinction (71.8%)"
     },

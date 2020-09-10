@@ -12,7 +12,7 @@ export default function Education() {
                 <Fade bottom duration={1000} distance="20px">
                 <div className="education-container" id="educationExp">
                     <div>
-                        <h1 className="education-heading">Educations</h1>
+                        <h1 className="education-heading">Education</h1>
                         <div className="education-cards-div">
                         {education.education.map((card) => {
                             return (
