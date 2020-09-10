@@ -1,10 +1,11 @@
 import React from "react";
 import Headroom from "react-headroom";
 import "./Header.css";
-import {greeting, workExperiences} from "../../portfolio";
+import {greeting, workExperiences, education} from "../../portfolio";
 
 function Header() {
   const exp = workExperiences.viewExperiences;
+  const exp = education.viewEducations;
   return (
     <Headroom>
       <header className="header">

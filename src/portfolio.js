@@ -151,7 +151,7 @@ const workExperiences = {
 // Your top work experiences
 
 const education = {
-  viewEducation: true, //Set it to true to show workExperiences Section
+  viewEducations: true, //Set it to true to show workExperiences Section
   education: [
     {
       role: "Bachelor of Engineering (Electonics & Telecommunication)",  
