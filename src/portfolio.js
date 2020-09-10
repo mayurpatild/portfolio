@@ -82,24 +82,12 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Test Framework Design",  //Insert stack or technology you have experience in
+      Stack: "Automation Framework Design",  //Insert stack or technology you have experience in
       progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Web Automation",
+      Stack: "Web/Mobile/Desktop/API Automation",
       progressPercentage: "90%"
-    },
-    {
-      Stack: "Mobile Automation",
-      progressPercentage: "90%"
-    },
-    {
-      Stack: "Desktop Automation",
-      progressPercentage: "90%"
-    },
-    {
-      Stack: "API Automation",
-      progressPercentage: "80%"
     },
     {
       Stack: "CI/CD",
@@ -111,8 +99,17 @@ const techStack = {
     },
     {
       Stack: "Performance Testing",
-      progressPercentage: "60%"
-    }
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Robotic Process Automation",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Cloud Technologies",
+      progressPercentage: "70%"
+    },
+
   ]
 };
 
@@ -155,7 +152,7 @@ const workExperiences = {
 
 const education = {
   viewEducation: true, //Set it to true to show workExperiences Section
-  experience: [
+  education: [
     {
       role: "Bachelor of Engineering (Electonics & Telecommunication)",  
       company: "Savitribai Phule University",
