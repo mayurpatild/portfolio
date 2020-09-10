@@ -25,6 +25,7 @@ export default class Main extends Component {
         <Projects />
         <Achievement />
         <Profile />
+        <Contact />
         <Footer />
         <Top />
       </div>
