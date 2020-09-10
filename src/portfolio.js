@@ -203,7 +203,7 @@ const achievementSection = {
     },
     {
       title: "RPA Developer Foundation",
-      subtitle: "Completed Certifcation from UiPath for Robotic Process Automation (RPA) Development",
+      subtitle: "Completed Certification from UiPath for Robotic Process Automation (RPA) Development",
       image: require("./assets/images/UiPath.webp"),
       footerLink: [
         { name: "Certification", url: "" }
@@ -211,7 +211,7 @@ const achievementSection = {
     },
     {
       title: "WU WAY GROUP STARS Winner",
-      subtitle: "Received WU WAY Star award in Q1 2020 for implemmentation of BDD framework",
+      subtitle: "Received WU WAY Star award in Q1 2020 for implementation of BDD framework",
       image: require("./assets/images/wuLogo.png"),
       footerLink: [
         { name: "Achievement", url: "" }
