@@ -5,7 +5,7 @@ import {greeting, workExperiences, education} from "../../portfolio";
 
 function Header() {
   const exp = workExperiences.viewExperiences;
-  const exp = education.viewEducations;
+  const edu = education.viewEducations;
   return (
     <Headroom>
       <header className="header">
@@ -28,17 +28,16 @@ function Header() {
             </li>
           }
           <li>
-            <a href="#opensource">Open Source</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
+            <a href="#opensource">Projects</a>
           </li>
           <li>
             <a href="#achievements">Achievements</a>
           </li>
-          <li>
-            <a href="#education">Education</a>
-          </li>
+          { edu === true &&
+             <li>
+               <a href="#education">Education</a>
+             </li>
+          }
           <li>
             <a href="#contact">Contact Me</a>
           </li>
