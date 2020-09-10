@@ -163,7 +163,7 @@ const education = {
     {
       role: "12th Grade",  
       company: "Central Board of Secondary Education",
-      companylogo: require("./assets/images/cbseLogo.png"),
+      companylogo: require("./assets/images/cbse.png"),
       date: "Apr 2011 – Mar 2012",
       desc: "85.8%"
     },
