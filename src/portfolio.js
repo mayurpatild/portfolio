@@ -7,10 +7,10 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Mayur Patil",
+  username: "MP",
   title: "Hi, I'm Mayur",
-  subTitle: emoji("A passionate Software QA 🚀 Solving problems, building and testing things with code and thoughts."),
-  resumeLink: ""
+  subTitle: emoji("A passionate Software Engineer 🚀 Solving problems, building and testing things with code and thoughts."),
+  resumeLink: "https://drive.google.com/file/d/1yg54aygqyEtTQgKH1csmA4Gxhbr3ijKa/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -163,7 +163,7 @@ const education = {
     {
       role: "12th Grade",  
       company: "Central Board of Secondary Education",
-      companylogo: require("./assets/images/cbse.png"),
+      companylogo: require("./assets/images/cbseLogo.png"),
       date: "Apr 2011 – Mar 2012",
       desc: "85.8%"
     },
@@ -196,17 +196,23 @@ const achievementSection = {
   achivementsCards: [
     
     {
+      title: "SAFe Certified Practitioner",
+      subtitle: "Scaled Agile Inc.",
+      image: require("./assets/images/safe.png"),
+      footerLink: [{ name: "Certification", url: "https://www.youracclaim.com/badges/b7f9c355-9267-42ad-945a-7af3d887a60b/public_url" }]
+    },
+    {
       title: "ISTQB Certified Tester",
       subtitle: "",
       image: require("./assets/images/ISTQB.png"),
-      footerLink: [{ name: "Certification", url: "" }]
+      footerLink: [{ name: "Certification", url: "https://app.box.com/s/ukfood1hnu0qy79u91xooxnpzzigk88j" }]
     },
     {
       title: "RPA Developer Foundation",
       subtitle: "Completed Certification from UiPath for Robotic Process Automation (RPA) Development",
       image: require("./assets/images/UiPath.webp"),
       footerLink: [
-        { name: "Certification", url: "" }
+        { name: "Certification", url: "https://crlearningpath.s3.amazonaws.com/crcloud/channelcertificates/1990/1342351/LearningPath_Certificate_09042020034802995.pdf?X-Amz-Expires=3600&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIFQ356KFOAPUQYOQ%2F20200910%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200910T175826Z&X-Amz-SignedHeaders=host&X-Amz-Signature=d45be187b9a87a716565677ff00b7bed11cdb347a5ee6bb32800cdb18c933409" }
       ]
     },
     {
