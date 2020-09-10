@@ -199,14 +199,14 @@ const achievementSection = {
       title: "ISTQB Certified Tester",
       subtitle: "",
       image: require("./assets/images/ISTQB.png"),
-      footerLink: [{ name: "Certification", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+      footerLink: [{ name: "Certification", url: "" }]
     },
     {
       title: "RPA Developer Foundation",
       subtitle: "Completed Certifcation from UiPath for Robotic Process Automation (RPA) Development",
       image: require("./assets/images/UiPath.webp"),
       footerLink: [
-        { name: "Certification", url: "https://cloud.contentraven.com/crdownloadfiles/index.aspx?act=8MH4sSWyowEaN0eXRAsy+A__&id=4t2QriPXC/Q_" }
+        { name: "Certification", url: "" }
       ]
     },
     {
@@ -264,7 +264,6 @@ const achievementSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-9421XXXXXX",
   email_address: "mayurpatild@gmail.com"
 };
 
