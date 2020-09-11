@@ -16,6 +16,7 @@ export default class Main extends Component {
   render() {
     return (
       <div>
+        <div id="stars"></div>
         <Header />
         <Greeting />
         <Skills />
