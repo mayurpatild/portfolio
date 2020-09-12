@@ -18,7 +18,7 @@
 }
 .main-button:hover {
   background-color: #ffffff;
-  color: #55198b;
+  color: black;
   transition: all .3s ease 0s;
   transform: translateY(-3px);
 }
@@ -26,9 +26,7 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
-}
-.project-button > .main-button{
-  margin-right: 0 !important;
+
 }
 /* Media Query */
 @media (max-width: 768px) {

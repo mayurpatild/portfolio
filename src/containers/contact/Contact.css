@@ -2,6 +2,10 @@
     display: flex;
 }
 
+.dark-mode a {
+    color: white;
+}
+
 .contact-div-main > * {
     flex: 1;
 }
@@ -29,6 +33,7 @@
 
 .contact-subtitle {
     text-transform: uppercase;
+    color:black !important;
 }
 
 .contact-text-div {
@@ -51,22 +56,22 @@
     .contact-title {
         font-size: 56px;
         font-weight: 400;
-        text-align: center;
+        text-align: justify;
     }
 
     .contact-title {
         font-size: 40px;
-        text-align: center;
+        text-align: justify;
     }
 
     .contact-subtitle {
         font-size: 16px;
         line-height: normal;
-        text-align: center;
+        text-align: justify;
     }
 
     .contact-text-div {
-        text-align: center;
+        text-align: justify;
         margin-top: 1.5rem;
     }
 
