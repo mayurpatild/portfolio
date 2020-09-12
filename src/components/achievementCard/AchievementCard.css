@@ -1,5 +1,12 @@
 .dark-mode {
-  background-color: #171c28;
+  background-color: #191919;
+}
+
+.section--dark-grey {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 /* .dark-mode h5,
@@ -21,6 +28,7 @@ p { color: white !important; } */
     line-height: 1.5rem;
 }
 .certificate-card {
+    opacity: 1;
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
     padding: 1.5rem;

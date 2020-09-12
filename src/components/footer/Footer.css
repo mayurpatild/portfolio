@@ -1,6 +1,7 @@
 .footer-text {
   text-align: center;
   color: #868e96 !important;
+  background-color: transparent;
 }
 
 .dark-mode {
@@ -8,6 +9,10 @@
 }
 
 .footer-div {
-  margin-top: 2rem;
-  padding-bottom: 1rem;
+  margin-top: 0rem;
+    padding: 0.05rem 2rem 1rem 2rem;
+    background-image: url("../../assets/illustrations/footer.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
