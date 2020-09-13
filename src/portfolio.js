@@ -7,10 +7,10 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Mayur Patil",
-  title: "Hi all, I'm Mayur",
-  subTitle: emoji("A passionate Software QA 🚀 Solving problems, building and testing things with code and thoughts."),
-  resumeLink: ""
+  username: "MP",
+  title: "Hi, I'm Mayur",
+  subTitle: emoji("A passionate Software Engineer 🚀 Solving problems, building and testing things with code and thoughts."),
+  resumeLink: "https://drive.google.com/file/d/1yg54aygqyEtTQgKH1csmA4Gxhbr3ijKa/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -21,9 +21,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/mayurpatild/",
   gmail: "mayurpatild@gmail.com",
   gitlab: "",
-  facebook: "",
-  medium: "",
-  stackoverflow: ""
+  facebook: ""
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -46,14 +44,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -64,14 +54,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
     },
     {
       skillName: "sql-database",
@@ -102,11 +84,11 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Test Framework Design",  //Insert stack or technology you have experience in
+      Stack: "Automation Framework Design",  //Insert stack or technology you have experience in
       progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Web / Mobile / Desktop / API Automation",
+      Stack: "Web/Mobile/Desktop/API Automation",
       progressPercentage: "90%"
     },
     {
@@ -119,8 +101,17 @@ const techStack = {
     },
     {
       Stack: "Performance Testing",
-      progressPercentage: "60%"
-    }
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Robotic Process Automation",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Cloud Technologies",
+      progressPercentage: "70%"
+    },
+
   ]
 };
 
@@ -145,36 +136,42 @@ const workExperiences = {
     },
     {
       role: "Systems Engineer",   
-      company: "Tata ConsultancyServices",
-      companylogo: require("./assets/images/tcsLogo.png"),
+      company: "Tata Consultancy Services",
+      companylogo: require("./assets/images/tcs3.jfif"),
       date: "Dec 2016 – Mar 2019",
-      desc: "Developed and enhanced several Hybrid frameworks for testing Web applications using Selenium, Cucumber and TestNG"
-    },
+      desc: "Developed and enhanced several Hybrid frameworks for testing Web applications using Selenium, Cucumber and TestNG",
+       descBullets: [
+        "Worked on multiple projects in Cards domain with contributions for testing multiple Web and Mobile applications",
+        "Developed and enhanced several Hybrid frameworks for testing Web applications using Selenium, Cucumber and TestNG",
+        "Implemented Grid based Architecture to run Test suites including thousands of Test cases distributed to run on several node machines for Web Applications",
+        "Implemented BDD based Mobile Test Automation Framework architecture to run test suites on mobile applications across Android/iOS devices using Perfecto"
+       ]
+     },
   ]
 };
 
 // Your top work experiences
 
 const education = {
-  viewEducation: true, //Set it to true to show workExperiences Section
-  experience: [
+  viewEducations: true, //Set it to true to show workExperiences Section
+  education: [
     {
       role: "Bachelor of Engineering (Electonics & Telecommunication)",  
       company: "Savitribai Phule University",
-      companylogo: require("./assets/images/sppuLogo.png"),
+      companylogo: require("./assets/images/sppuPune.jpg"),
       date: "Aug 2012 – Jun 2016",
       desc: "First Class with Distinction (71.8%)"
     },
     {
       role: "12th Grade",  
-      company: "Centrall Board of Secondary Education",
+      company: "Central Board of Secondary Education",
       companylogo: require("./assets/images/cbseLogo.png"),
       date: "Apr 2011 – Mar 2012",
       desc: "85.8%"
     },
     {
       role: "10th Grade",  
-      company: "Centrall Board of Secondary Education",
+      company: "Central Board of Secondary Education",
       companylogo: require("./assets/images/cbseLogo.png"),
       date: "Apr 2009 – Mar 2010",
       desc: "CGPA 9.4"
@@ -199,41 +196,84 @@ const achievementSection = {
   subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achivementsCards: [
+    
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "SAFe Certified Practitioner",
+      subtitle: "Scaled Agile Inc.",
+      image: require("./assets/images/safe.png"),
+      footerLink: [{ name: "Certification", url: "https://www.youracclaim.com/badges/b7f9c355-9267-42ad-945a-7af3d887a60b/public_url" }]
+    },
+    {
+      title: "ISTQB Certified Tester",
+      subtitle: "Global Association for Software Quality (gasq)",
+      image: require("./assets/images/ISTQB.png"),
+      footerLink: [{ name: "Certification", url: "https://app.box.com/s/ukfood1hnu0qy79u91xooxnpzzigk88j" }]
+    },
+    {
+      title: "RPA Developer Foundation",
+      subtitle: "Completed Certification from UiPath for Robotic Process Automation (RPA) Development",
+      image: require("./assets/images/UiPath.webp"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "Certification", url: "https://cloud.contentraven.com/crdownloadfiles/index.aspx?act=8MH4sSWyowEaN0eXRAsy+A__&id=4t2QriPXC/Q_" }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "WU WAY GROUP STARS Winner",
+      subtitle: "Received WU WAY Star award in Q1 2020 for implementation of BDD framework",
+      image: require("./assets/images/wuLogo.png"),
       footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+        { name: "Achievement", url: "" }
       ]
-    }
+    },
+    {
+      title: "WU Bravo recognition - Flair Award",
+      subtitle: "Received Flair award for achieving delivery milestones",
+      image: require("./assets/images/wuLogo.png"),
+      footerLink: [
+        { name: "Achievement", url: "" }
+      ]
+    },
+    {
+      title: "Star of the Month Award",
+      subtitle: "Apr 1, 2018",
+      image: require("./assets/images/tcs3.jfif"),
+      footerLink: [
+        { name: "Achievement", url: "" }
+      ]
+    },
+    {
+      title: "Citi Bright Beginner Award",
+      subtitle: "Mar 1, 2018",
+      image: require("./assets/images/tcs3.jfif"),
+      footerLink: [
+        { name: "Achievement", url: "" }
+      ]
+    },
+    {
+      title: "On The Spot Award",
+      subtitle: "Aug 1, 2017",
+      image: require("./assets/images/tcs3.jfif"),
+      footerLink: [
+        { name: "Achievement", url: "" }
+      ]
+    },
+    {
+      title: "Star Performer Award",
+      subtitle: "Recognized as Star Performer among batch of 250 colleagues while training under TCS",
+      image: require("./assets/images/tcs3.jfif"),
+      footerLink: [
+        { name: "Achievement", url: "" }
+      ]
+    },
   ]
 };
 
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
+  number: "Contact through email only",
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-9421XXXXXX",
   email_address: "mayurpatild@gmail.com"
 };
 
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, achievementSection, contactInfo};
+export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, education, openSource, achievementSection, contactInfo};

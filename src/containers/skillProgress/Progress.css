@@ -1,5 +1,5 @@
 .meter { 
-    height: 20px;
+    height: 15px;
     position: relative;
     background: rgb(243, 239, 239);
     -moz-border-radius: 25px;
@@ -9,11 +9,11 @@
 .meter > span {
     display: block;
     height: 100%;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    background-color: #aaa5ff;
+    background-color: aqua;
     position: relative;
     overflow: hidden;
 }

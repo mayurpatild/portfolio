@@ -1,21 +1,22 @@
-import React, { useState, useEffect, lazy, Suspense } from "react";
+import React, { useState, useEffect, useContext, Suspense, lazy } from "react";
 import ApolloClient from "apollo-boost";
 import { gql } from "apollo-boost";
 import "./Project.css";
 import Button from "../../components/button/Button";
-import Loading from "../loading/Loading";
-import { openSource, socialMediaLinks } from "../../portfolio";
-
-
+import { openSource,socialMediaLinks  } from "../../portfolio";
+import { Fade } from "react-reveal";
+import { StyleConsumer } from "../../contexts/StyleContext"
+import Loading from '../../containers/loading/Loading'
 export default function Projects() {
   const GithubRepoCard = lazy(() => import('../../components/githubRepoCard/GithubRepoCard'));
-  const FailedLoading = () => null ;
+  const FailedLoading = () => null;
   const renderLoader = () => <Loading />;
   const [repo, setrepo] = useState([]);
-
+  const { isDark } = useContext(StyleConsumer);
   useEffect(() => {
     getRepoData();
   }, []);
+
 
   function getRepoData() {
     const client = new ApolloClient({
