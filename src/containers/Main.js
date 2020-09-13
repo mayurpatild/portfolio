@@ -11,23 +11,43 @@ import Contact from "./contact/Contact";
 import Footer from "../components/footer/Footer";
 import Top from "./topbutton/Top";
 import Profile from "./profile/Profile";
+import { StyleProvider } from "../contexts/StyleContext";
+import "./Main.css";
+
 
 export default class Main extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isDark: false
+    };
+  }
+
+  componentDidMount() {
+    const darkPref = window.matchMedia('(prefers-color-scheme: dark)');
+    this.setState({ isDark: darkPref.matches });
+  }
+  changeTheme = () => {
+    this.setState({ isDark: !this.state.isDark });
+  }
+
   render() {
     return (
-      <div>
-        <div id="stars"></div>
-        <Header />
-        <Greeting />
-        <Skills />
-        <StackProgress />
-        <WorkExperience />
-        <Education />
-        <Projects />
-        <Achievement />
-        <Profile />
-        <Footer />
-        <Top />
+      <div className={this.state.isDark ? "dark-mode" : null} >
+      <StyleProvider value={{ isDark: this.state.isDark, changeTheme: this.changeTheme }} >
+            <div id={this.state.isDark ? "stars-dark" : "stars"}></div>
+            <Header />
+            <Greeting />
+            <Skills />
+            <StackProgress />
+            <WorkExperience />
+            <Education />
+            <Projects />
+            <Achievement />
+            <Profile />
+            <Footer />
+            <Top />
+        </StyleProvider>
       </div>
     );
   }

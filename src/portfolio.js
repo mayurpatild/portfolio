@@ -21,9 +21,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/mayurpatild/",
   gmail: "mayurpatild@gmail.com",
   gitlab: "",
-  facebook: "",
-  medium: "",
-  stackoverflow: ""
+  facebook: ""
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -48,6 +46,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
     },
     {
       skillName: "nodejs",
@@ -203,7 +205,7 @@ const achievementSection = {
     },
     {
       title: "ISTQB Certified Tester",
-      subtitle: "",
+      subtitle: "Global Association for Software Quality (gasq)",
       image: require("./assets/images/ISTQB.png"),
       footerLink: [{ name: "Certification", url: "https://app.box.com/s/ukfood1hnu0qy79u91xooxnpzzigk88j" }]
     },
@@ -269,6 +271,7 @@ const achievementSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
+  number: "Contact through email only",
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
   email_address: "mayurpatild@gmail.com"
 };

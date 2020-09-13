@@ -2,6 +2,10 @@
     display: flex;
 }
 
+.dark-mode a {
+    color: white;
+}
+
 .contact-div-main > * {
     flex: 1;
 }
@@ -29,6 +33,7 @@
 
 .contact-subtitle {
     text-transform: uppercase;
+    color:black !important;
 }
 
 .contact-text-div {
@@ -49,30 +54,30 @@
 /* Media Query */
 @media (max-width: 1380px), (max-width: 768px) {
     .contact-title {
-        font-size: 56px;
+        font-size: 26px;
         font-weight: 400;
-        text-align: center;
+        text-align: justify;
     }
 
     .contact-title {
-        font-size: 40px;
-        text-align: center;
+        font-size: 20px;
+        text-align: justify;
     }
 
     .contact-subtitle {
-        font-size: 16px;
+        font-size: 7px;
         line-height: normal;
-        text-align: center;
+        text-align: justify;
     }
 
     .contact-text-div {
-        text-align: center;
+        text-align: justify;
         margin-top: 1.5rem;
     }
 
     .contact-detail,
     .contact-detail-email {
-        font-size: 20px;
+        font-size: 10px;
     }
 
     .contact-image-div {

@@ -1,3 +1,14 @@
+.dark-mode {
+  color:white !important;
+}
+
+.small-dark {
+  color: white !important;
+}
+
+/* .dark-mode h3,
+ p { color: white; }
+  */
 .blog-container {
   border-radius: 10px;
   color: #586069;
@@ -26,7 +37,7 @@
 .small {
   font-size: 17px;
   font-weight: 400;
-  line-height: 1.5rem;
+  line-height: 20px;
   color: #666666;
   padding: 0px 20px;
   overflow: hidden;

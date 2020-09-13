@@ -50,14 +50,6 @@
   background-color: #1da1f2;
 }
 
-.medium i {
-  background-color: #000;
-}
-
-.stack-overflow i {
-  background-color: #f48024;
-}
-
 .instagram i {
   background-color: #c13584;
 }
@@ -69,10 +61,9 @@
 .github i:hover,
 .linkedin i:hover,
 .facebook i:hover,
-.instagram i:hover,
-.stack-overflow i:hover,
-.medium i:hover{
+.instagram i:hover {
   background-color: black;
+  transition: 0.3s ease-in;
 }
 
 /* Media Query */
