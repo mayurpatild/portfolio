@@ -11,7 +11,7 @@ export default function Achievement() {
     win.focus();
   }
   return (
-    <Fade bottom duration={1000} distance="20px">
+    <Fade bottom duration={0} distance="20px">
     <div className="main" id="achievements">
       <div className="achievement-main-div">
         <div className="achievement-header">
