@@ -1,5 +1,4 @@
 .main-button {
-  background-color: #55198b;
   border: solid 1px #55198b;
   color: white;
   font-weight: 700;
@@ -14,7 +13,7 @@
   font-size: 16px;
   cursor: pointer;
   transition: all .3s ease-in-out 0s;
-  background: rgb(60, 25, 255);
+  background: linear-gradient(to right, #7845e6 0%, #ee2bf1 51%, #576eb7 100%);
   border: 0px;
   border-radius: 50px;
   box-shadow: 0px 6px 20px rgb(60, 25, 255,0.6);
