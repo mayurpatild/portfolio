@@ -7,14 +7,14 @@ import { Wrapper } from './styles';
 const ToggleSwitch = () => {
   const [isChecked, setChecked] = useState(false);
   const styleContext = useContext(StyleContext);
-
+  const { isDark } = useContext(StyleContext);
   return (
     <label className="switch">
       <Wrapper type="button" onClick={() => {
                                              styleContext.changeTheme();
                                              setChecked(!isChecked);
                                            }}>
-         <img src={isChecked === true ? moonIcon : sunIcon} alt={isChecked} />
+         <img src={isDark === true ? sunIcon : moonIcon } alt={isChecked} />
       </Wrapper>
     </label>
 

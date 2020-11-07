@@ -13,12 +13,12 @@
     border-bottom-right-radius: 12px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    background-color: aqua;
+    background-color: turquoise;
     position: relative;
     overflow: hidden;
 }
 .skill{
-    line-height: 3.5vw;
+    line-height: 1.5vw;
 }
 .skill-bars{
     font-size: 28px;

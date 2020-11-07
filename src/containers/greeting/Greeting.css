@@ -25,6 +25,10 @@
 
 }
 
+.subTitle-experience {
+    color:black !important;
+}
+
 .greeting-main {
   display: flex;
 }

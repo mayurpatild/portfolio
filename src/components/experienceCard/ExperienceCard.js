@@ -16,7 +16,7 @@ export default function ExperienceCard({ cardInfo }) {
   }
 
   const GetDescBullets = ({ descBullets }) => {
-    return descBullets ? descBullets.map((item) => <li className="subTitle">{item}</li>) : null
+    return descBullets ? descBullets.map((item) => <li className="subTitle-experience">{item}</li>) : null
   };
 
   return (
@@ -32,7 +32,7 @@ export default function ExperienceCard({ cardInfo }) {
       <div className="experience-text-details">
         <h5 className="experience-text-role">{cardInfo.role}</h5>
         <h5 className="experience-text-date">{cardInfo.date}</h5>
-        <p className="subTitle experience-text-desc">{cardInfo.desc}</p>
+        <p className="subTitle-experience experience-text-desc">{cardInfo.desc}</p>
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} />
         </ul>
