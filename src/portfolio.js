@@ -29,7 +29,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY FULL STACK QA WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY SOFTWARE DEVELOPMENT ENGINEER IN TEST WHO IS PASSIONATE ABOUT QUALITY ENGINEERING0",
   skills: [
     emoji("⚡ Passionate about designing and implementing Reusable, Maintainable, Scalable and Well-Designed Test Automation Frameworks"),
     emoji("⚡ Applications/ Utilities across a variety of platforms and systems: On-line, Real time applications, Web and Mobile user interface & Web services.")
@@ -62,14 +62,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "docker",
