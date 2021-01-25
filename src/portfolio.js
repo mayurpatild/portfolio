@@ -7,7 +7,7 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "MP",
+  username: "Mayur Patil",
   title: "Hi, I'm Mayur",
   subTitle: emoji("A passionate Software Engineer 🚀 Solving problems, building and testing things with code and thoughts."),
   resumeLink: "https://drive.google.com/file/d/1yg54aygqyEtTQgKH1csmA4Gxhbr3ijKa/view?usp=sharing"
@@ -29,7 +29,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY SOFTWARE DEVELOPMENT ENGINEER IN TEST WHO IS PASSIONATE ABOUT QUALITY ENGINEERING",
+  subTitle: "A SOFTWARE DEVELOPMENT ENGINEER IN TEST PASSIONATE ABOUT QUALITY ENGINEERING",
   skills: [
     emoji("⚡ Passionate about designing and implementing Reusable, Maintainable, Scalable and Well-Designed Test Automation Frameworks"),
     emoji("⚡ Applications/ Utilities across a variety of platforms and systems: On-line, Real time applications, Web and Mobile user interface & Web services.")
@@ -148,7 +148,7 @@ const education = {
   viewEducations: true, //Set it to true to show workExperiences Section
   education: [
     {
-      role: "Bachelor of Engineering (Electonics & Telecommunication)",  
+      role: "Bachelor of Engineering (Electronics & Telecommunication)",  
       company: "Savitribai Phule University",
       companylogo: require("./assets/images/sppuPune.jpg"),
       date: "Aug 2012 – Jun 2016",
