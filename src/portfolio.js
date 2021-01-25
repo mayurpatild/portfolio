@@ -29,7 +29,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY SOFTWARE DEVELOPMENT ENGINEER IN TEST WHO IS PASSIONATE ABOUT QUALITY ENGINEERING0",
+  subTitle: "CRAZY SOFTWARE DEVELOPMENT ENGINEER IN TEST WHO IS PASSIONATE ABOUT QUALITY ENGINEERING",
   skills: [
     emoji("⚡ Passionate about designing and implementing Reusable, Maintainable, Scalable and Well-Designed Test Automation Frameworks"),
     emoji("⚡ Applications/ Utilities across a variety of platforms and systems: On-line, Real time applications, Web and Mobile user interface & Web services.")
